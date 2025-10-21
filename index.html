@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Lengkap Hukum Internasional</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        .content-box {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 1.5rem;
+        }
+        .content-box:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+        }
+        details > summary {
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            color: #1e40af; /* Blue-700 */
+            transition: background-color 0.2s;
+            list-style: none; /* Menghilangkan marker default */
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] > summary {
+            background-color: #eff6ff; /* Blue-50 */
+            border-bottom: 2px solid #3b82f6; /* Blue-500 */
+        }
+        details > summary:hover {
+            background-color: #e0f2fe; /* Blue-100 */
+        }
+        .detail-content {
+            padding: 1rem;
+            margin-top: 0.5rem;
+            border-left: 3px solid #60a5fa; /* Blue-400 */
+        }
+        .toc-link {
+            transition: all 0.2s;
+        }
+        .toc-link:hover {
+            color: #3b82f6;
+            transform: translateX(3px);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <header class="bg-blue-800 text-white p-6 shadow-xl sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl font-extrabold tracking-tight">HUKUM INTERNASIONAL</h1>
+            <p class="text-sm opacity-90 mt-1">Materi Kuliah Lengkap dan Terperinci</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        
+        <!-- Tabel of Contents (Daftar Isi) - Untuk Navigasi Cepat -->
+        <div class="content-box bg-blue-50 border-l-4 border-blue-500">
+            <h2 class="text-2xl font-bold mb-4 text-blue-800">Daftar Isi</h2>
+            <nav class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm">
+                <!-- Links to sections (using IDs) -->
+                <a href="#pengantar" class="toc-link text-gray-700 hover:text-blue-600 font-medium">1. Pengantar & Definisi</a>
+                <a href="#sejarah" class="toc-link text-gray-700 hover:text-blue-600 font-medium">2. Sejarah & Perkembangan</a>
+                <a href="#sifat" class="toc-link text-gray-700 hover:text-blue-600 font-medium">3. Sifat & Hakikat</a>
+                <a href="#sumber-utama" class="toc-link text-gray-700 hover:text-blue-600 font-medium">4. Sumber-Sumber Hukum (Art. 38)</a>
+                <a href="#subjek" class="toc-link text-gray-700 hover:text-blue-600 font-medium">5. Subjek Hukum Internasional</a>
+                <a href="#negara" class="toc-link text-gray-700 hover:text-blue-600 font-medium">6. Negara (Kedaulatan & Pengakuan)</a>
+                <a href="#yurisdiksi" class="toc-link text-gray-700 hover:text-blue-600 font-medium">7. Yurisdiksi & Kekebalan Negara</a>
+                <a href="#tanggung-jawab" class="toc-link text-gray-700 hover:text-blue-600 font-medium">8. Tanggung Jawab Negara</a>
+                <a href="#sengketa" class="toc-link text-gray-700 hover:text-blue-600 font-medium">9. Penyelesaian Sengketa</a>
+                <a href="#hukum-laut" class="toc-link text-gray-700 hover:text-blue-600 font-medium">10. Hukum Laut Internasional</a>
+                <a href="#hhi" class="toc-link text-gray-700 hover:text-blue-600 font-medium">11. Hukum Humaniter Internasional</a>
+                <a href="#ham" class="toc-link text-gray-700 hover:text-blue-600 font-medium">12. Hukum HAM Internasional</a>
+                <a href="#hubungan" class="toc-link text-gray-700 hover:text-blue-600 font-medium">13. Hubungan HI & Hukum Nasional</a>
+                <a href="#klasifikasi-sumber" class="toc-link text-gray-700 hover:text-blue-600 font-medium">14. Klasifikasi Sumber Hukum (Formil & Materil)</a>
+                <a href="#perjanjian-jenis" class="toc-link text-gray-700 hover:text-blue-600 font-medium">15. Jenis Perjanjian Internasional</a>
+                <a href="#kebiasaan-detil" class="toc-link text-gray-700 hover:text-blue-600 font-medium">16. Kebiasaan Internasional (Detil)</a>
+                <a href="#prinsip-umum" class="toc-link text-gray-700 hover:text-blue-600 font-medium">17. Prinsip Hukum Umum & Putusan</a>
+            </nav>
+        </div>
+
+        <h2 class="text-3xl font-bold mb-6 text-gray-800 border-b-2 pb-2 mt-8">Materi Utama</h2>
+
+        <!-- MATERI 1: Pengantar dan Definisi Hukum Internasional -->
+        <details class="content-box" id="pengantar">
+            <summary>1. Pengantar dan Definisi Hukum Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3"><strong>Definisi Hukum Internasional (HI):</strong> HI adalah keseluruhan kaidah dan asas hukum yang mengatur hubungan atau persoalan yang melintasi batas-batas negara (hubungan internasional) yang bukan bersifat perdata.</p>
+                <p class="mb-3"><strong>Tokoh dan Definisi:</strong></p>
+                <ul class="list-disc ml-6">
+                    <li>**Mochtar Kusumaatmadja:** Keseluruhan kaidah dan asas hukum yang mengatur hubungan atau persoalan yang melintasi batas-batas negara antara negara dengan negara, dan subjek hukum lain dengan negara atau subjek hukum internasional lain.</li>
+                    <li>**J.G. Starke:** Sekumpulan hukum (sebagian besar terdiri dari asas dan kaidah) yang dalam keadaan tertentu mengikat negara-negara, dan badan-badan hukum lainnya yang memiliki kepribadian hukum internasional.</li>
+                </ul>
+                <p class="mt-4 font-semibold">Ruang Lingkup HI:</p>
+                <ul class="list-disc ml-6">
+                    <li>**HI Publik:** Mengatur hubungan antar negara, organisasi internasional, dan subjek hukum publik lainnya (fokus utama mata kuliah ini).</li>
+                    <li>**HI Perdata:** Mengatur hubungan hukum antar individu (misalnya perkawinan campuran, kontrak dagang antar negara) yang memiliki unsur asing.</li>
+                </ul>
+                <p class="mt-4 font-semibold">Fungsi HI:</p>
+                <ul class="list-disc ml-6">
+                    <li>Memelihara perdamaian dan keamanan internasional.</li>
+                    <li>Mengatur kerjasama dan hubungan antar subjek hukum internasional.</li>
+                    <li>Menyelesaikan sengketa secara damai.</li>
+                    <li>Melindungi hak asasi manusia dan lingkungan global.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 2: Sejarah dan Perkembangan Hukum Internasional -->
+        <details class="content-box" id="sejarah">
+            <summary>2. Sejarah dan Perkembangan Hukum Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3"><strong>Periode Klasik:</strong> Terdapat kaidah-kaidah yang mengatur hubungan antar entitas politik kuno (misalnya perjanjian di antara negara kota Yunani atau Kekaisaran Romawi). HI saat itu bersifat regional.</p>
+                <p class="mb-3"><strong>Periode Abad Pertengahan:</strong> Pengaruh kuat Hukum Kanonik dan Hukum Alam. Munculnya hukum perang dan hukum maritim (misalnya <em>Lex Mercatoria</em>).</p>
+                <p class="mb-3"><strong>Periode Modern (HI Klasik):</strong> Titik balik penting adalah:</p>
+                <ul class="list-disc ml-6">
+                    <li>**Perjanjian Perdamaian Westphalia 1648:** Mengakhiri Perang Tiga Puluh Tahun dan dianggap sebagai awal mula HI modern, yang didasarkan pada konsep **Negara Berdaulat (Sovereign State)** sebagai subjek hukum utama.</li>
+                    <li>**Hugo Grotius (Bapak HI):** Melalui karyanya *De Jure Belli ac Pacis* (Hukum Perang dan Damai), ia memisahkan HI dari teologi dan menjadikannya sebagai ilmu yang rasional, memadukan Hukum Alam (*Jus Naturale*) dan Hukum Bangsa-Bangsa (*Jus Gentium*).</li>
+                </ul>
+                <p class="mb-3"><strong>Periode Kontemporer (Pasca-PD II):</strong></p>
+                <ul class="list-disc ml-6">
+                    <li>**Pembentukan PBB (1945):** HI semakin terinstitusionalisasi dan universal. Fokus tidak hanya pada perang dan damai, tetapi juga pada HAM, lingkungan, pembangunan, dan kerjasama ekonomi.</li>
+                    <li>**Munculnya Organisasi Internasional:** Subjek HI tidak lagi didominasi oleh negara saja.</li>
+                    <li>**Kodifikasi HI:** Banyak kebiasaan HI yang dikodifikasi menjadi perjanjian (traktat) melalui Komisi Hukum Internasional (ILC).</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 3: Sifat dan Hakikat Hukum Internasional -->
+        <details class="content-box" id="sifat">
+            <summary>3. Sifat dan Hakikat Hukum Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3"><strong>Sifat Koordinatif:</strong> HI bersifat koordinatif, bukan subordinatif. Artinya, HI mengatur hubungan antar subjek hukum (negara) yang secara formal sederajat (*par in parem non habet imperium* - yang sederajat tidak memiliki kekuasaan atas yang sederajat lainnya). Tidak ada otoritas tunggal di atas negara.</p>
+                <p class="mb-3"><strong>HI sebagai Hukum yang Mengikat (*Binding*):</strong> HI adalah hukum yang sesungguhnya (bukan hanya moralitas) karena:</p>
+                <ul class="list-disc ml-6">
+                    <li>Ada sumber-sumber hukum yang jelas (Pasal 38 Statuta Mahkamah Internasional).</li>
+                    <li>Ada mekanisme penegakan (walaupun lemah dibandingkan hukum nasional), seperti sanksi PBB, pembalasan (*reprisal*), dan opini publik internasional.</li>
+                    <li>Negara-negara sendiri mengakui dan merujuk pada HI dalam hubungan diplomatik dan sengketa.</li>
+                </ul>
+                <p class="mb-3"><strong>Hakikat HI (Debat Teori):</strong></p>
+                <ul class="list-disc ml-6">
+                    <li>**Aliran Naturalis:** Menganggap HI bersumber dari prinsip-prinsip Hukum Alam (moralitas, keadilan) yang sudah ada secara universal, tidak dibuat oleh manusia.</li>
+                    <li>**Aliran Positivis:** Menganggap HI bersumber dari kehendak bebas negara (*Voluntarisme*), seperti perjanjian dan kebiasaan yang disepakati oleh negara-negara. Ini adalah pandangan yang dominan saat ini.</li>
+                    <li>**Mazhab Sosiologis:** Menganggap HI muncul karena kebutuhan masyarakat internasional akan keteraturan dan solidaritas.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 4: Sumber-Sumber Hukum Internasional (Pasal 38 Statuta Mahkamah Internasional) -->
+        <details class="content-box" id="sumber-utama">
+            <summary>4. Sumber-Sumber Hukum Internasional (Traktat, Kebiasaan, Asas Hukum Umum)</summary>
+            <div class="detail-content">
+                <p class="mb-3">Pasal 38 (1) Statuta Mahkamah Internasional (ICJ) secara luas diterima sebagai daftar otoritatif sumber-sumber HI yang digunakan untuk memutuskan sengketa. Sumber-sumber ini dibagi menjadi sumber **utama** (a, b, c) dan sumber **tambahan** (d).</p>
+                <p class="font-bold text-lg mt-4">A. Perjanjian Internasional (Traktat/Konvensi)</p>
+                <ul class="list-disc ml-6">
+                    <li>Traktat adalah perjanjian tertulis yang dibuat antar subjek HI dan diatur oleh HI (Konvensi Wina tentang Hukum Perjanjian 1969).</li>
+                    <li>Bersifat **<em>Law-making treaties</em>** (membuat hukum baru, misalnya UNCLOS) atau **<em>Treaty Contracts</em>** (hanya mengikat pihak-pihak yang berkontrak).</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">B. Kebiasaan Internasional (Customary International Law)</p>
+                <ul class="list-disc ml-6">
+                    <li>Terdiri dari praktik umum negara-negara yang diterima sebagai hukum. Membutuhkan dua unsur:
+                        <ol class="list-decimal ml-6">
+                            <li><strong>Praktik Negara (*State Practice*):</strong> Harus konsisten, seragam, dan umum.</li>
+                            <li><strong>Keyakinan Hukum (*Opinio Juris Sive Necessitatis*):</strong> Keyakinan bahwa praktik tersebut dilakukan karena adanya kewajiban hukum.</li>
+                        </ol>
+                    </li>
+                </ul>
+                <p class="font-bold text-lg mt-4">C. Prinsip-Prinsip Hukum Umum (*General Principles of Law*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Asas-asas hukum yang mendasari sistem hukum nasional utama di dunia yang kemudian diakui dan diterapkan di tingkat internasional.
+                    <li>Contoh: asas *pacta sunt servanda* (janji harus ditepati), *bona fides* (itikad baik), *res judicata* (putusan pengadilan bersifat final), dan *nemo judex in causa sua* (tidak seorang pun menjadi hakim dalam perkaranya sendiri).</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">D. Keputusan Pengadilan dan Ajaran Para Sarjana (Sumber Tambahan)</p>
+                <ul class="list-disc ml-6">
+                    <li>Digunakan sebagai sarana tambahan untuk menetapkan kaidah-kaidah hukum, bukan sebagai sumber hukum yang berdiri sendiri.</li>
+                    <li><strong>Keputusan Pengadilan (*Judicial Decisions*):</strong> Termasuk putusan Mahkamah Internasional dan pengadilan arbitrase. Walaupun tidak mengikat pihak ketiga, putusan ICJ sangat berpengaruh dalam menginterpretasikan HI.</li>
+                    <li><strong>Ajaran Para Sarjana (*Teachings of Publicists*):</strong> Pendapat ahli hukum terkemuka yang digunakan untuk membantu menemukan atau menafsirkan HI.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Catatan Khusus: Putusan Organisasi Internasional</p>
+                <ul class="list-disc ml-6">
+                    <li>Secara teknis, tidak termasuk dalam Pasal 38. Namun, resolusi Dewan Keamanan PBB dapat mengikat negara anggota (Pasal 25 Piagam PBB).</li>
+                    <li>Resolusi Majelis Umum PBB bersifat rekomendatif, tetapi jika didukung secara luas dan berulang, dapat menjadi bukti kuat adanya *opinio juris* (membantu pembentukan Kebiasaan HI).</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 5: Subjek Hukum Internasional -->
+        <details class="content-box" id="subjek">
+            <summary>5. Subjek Hukum Internasional (Negara, Organisasi Internasional, Individu, dsb.)</summary>
+            <div class="detail-content">
+                <p class="mb-3">Subjek HI adalah entitas yang memiliki kepribadian hukum (*international legal personality*), yang memungkinkannya memiliki hak dan kewajiban berdasarkan HI dan mampu mengajukan klaim atau menjadi pihak dalam perjanjian.</p>
+                <p class="font-bold text-lg mt-4">1. Negara (State)</p>
+                <ul class="list-disc ml-6">
+                    <li>Subjek HI utama dan asli. Menurut Konvensi Montevideo 1933, negara harus memiliki: a) Penduduk tetap, b) Wilayah tertentu, c) Pemerintahan yang berdaulat, dan d) Kemampuan untuk menjalin hubungan dengan negara lain.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">2. Organisasi Internasional (International Organizations - IOs)</p>
+                <ul class="list-disc ml-6">
+                    <li>Contoh: PBB, WHO, WTO. IOs memperoleh kepribadian hukum dari perjanjian pendiriannya. Putusan ICJ dalam kasus *Reparation for Injuries Suffered in the Service of the United Nations* (1949) mengukuhkan status OI sebagai subjek HI.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">3. Individu (Individuals)</p>
+                <ul class="list-disc ml-6">
+                    <li>Sebelumnya hanya objek, kini diakui sebagai subjek terbatas. Hal ini terutama karena:
+                        <ol class="list-decimal ml-6">
+                            <li><strong>Hukum Hak Asasi Manusia Internasional:</strong> Individu memiliki hak yang dapat dituntut langsung di pengadilan regional (misalnya ECHR).</li>
+                            <li><strong>Hukum Pidana Internasional:</strong> Individu dapat dituntut secara langsung atas kejahatan internasional (genosida, kejahatan perang, kejahatan terhadap kemanusiaan) di Mahkamah Pidana Internasional (ICC).</li>
+                        </ol>
+                    </li>
+                </ul>
+                <p class="font-bold text-lg mt-4">4. Tahta Suci (Holy See/Vatikan)</p>
+                <ul class="list-disc ml-6">
+                    <li>Memiliki kedaulatan yang diakui dan kemampuan untuk melakukan perjanjian (*Concordat*) dengan negara lain.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">5. Palang Merah Internasional (ICRC)</p>
+                <ul class="list-disc ml-6">
+                    <li>Memiliki status unik yang diakui oleh Konvensi Jenewa, memungkinkan ICRC menjalin hubungan dengan negara dan IOs.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">6. Pihak yang Berperang (Belligerents) dan Gerakan Pembebasan Nasional</p>
+                <ul class="list-disc ml-6">
+                    <li>Kelompok yang menguasai sebagian wilayah dan diakui negara lain sebagai pihak yang berhak menerapkan Hukum Humaniter Internasional. Status ini bersifat sementara.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 6: Negara (Kedaulatan, Pengakuan Negara dan Pemerintah) -->
+        <details class="content-box" id="negara">
+            <summary>6. Negara (Kedaulatan, Pengakuan Negara dan Pemerintah)</summary>
+            <div class="detail-content">
+                <p class="font-bold text-lg mt-4">Kedaulatan Negara (*Sovereignty*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Kedaulatan adalah kekuasaan tertinggi negara atas wilayah dan penduduknya (kedaulatan internal) dan kebebasan dari campur tangan negara lain (kedaulatan eksternal).</li>
+                    <li>**Prinsip Utama:** Kesetaraan Kedaulatan (*Sovereign Equality*) - semua negara, besar atau kecil, memiliki hak hukum yang sama (Pasal 2 Piagam PBB).</li>
+                    <li>Kedaulatan tidak absolut; dibatasi oleh HI, misalnya kewajiban untuk tidak mengganggu perdamaian.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Pengakuan Negara (*Recognition of States*)</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Teori Deklaratif (*Declaratory Theory*):</strong> Negara sudah ada (subjek HI) begitu memenuhi empat unsur Montevideo. Pengakuan oleh negara lain hanya bersifat pernyataan fakta. (Teori yang dominan saat ini).</li>
+                    <li><strong>Teori Konstitutif (*Constitutive Theory*):</strong> Negara baru dianggap sebagai subjek HI hanya setelah diakui oleh negara-negara lain.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Pengakuan Pemerintah (*Recognition of Governments*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Pengakuan diberikan kepada rezim atau pemerintah yang berkuasa. Ini menjadi isu jika terjadi pergantian kekuasaan secara inkonstitusional (kudeta/revolusi).</li>
+                    <li>**Doktrin Stimson:** Tidak mengakui pemerintah yang berkuasa sebagai hasil dari penggunaan kekerasan atau pelanggaran HI (misalnya invasi).</li>
+                    <li>**Pengakuan De Jure:** Pengakuan formal dan permanen, menyatakan pemerintah tersebut berhak dan berkuasa.</li>
+                    <li>**Pengakuan De Facto:** Pengakuan yang bersifat sementara dan terbatas, mengakui adanya kontrol efektif di wilayah tersebut, tanpa mengakui legalitasnya.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 7: Yurisdiksi dan Kekebalan Negara -->
+        <details class="content-box" id="yurisdiksi">
+            <summary>7. Yurisdiksi dan Kekebalan Negara</summary>
+            <div class="detail-content">
+                <p class="font-bold text-lg mt-4">Yurisdiksi Negara (*Jurisdiction*)</p>
+                <p class="mb-3">Yurisdiksi adalah kekuasaan negara untuk mengatur atau mempengaruhi orang, properti, atau kejadian. Prinsip-prinsip yang melandasi yurisdiksi:</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Prinsip Teritorial:</strong> Negara memiliki yurisdiksi atas semua kejahatan/peristiwa yang terjadi di dalam wilayahnya (paling dominan).</li>
+                    <li><strong>Prinsip Nasionalitas:</strong> Negara memiliki yurisdiksi atas warga negaranya, di mana pun mereka berada (*active nationality* - warga negara melakukan kejahatan di luar negeri; *passive nationality* - warga negara menjadi korban kejahatan di luar negeri).</li>
+                    <li><strong>Prinsip Perlindungan (*Protective Principle*):</strong> Negara memiliki yurisdiksi atas tindakan yang dilakukan di luar negeri yang mengancam keamanan atau kepentingan vitalnya (misalnya pemalsuan mata uang).</li>
+                    <li><strong>Prinsip Universalitas (*Universality Principle*):</strong> Negara dapat menjalankan yurisdiksi atas kejahatan yang dianggap musuh seluruh umat manusia (*hostis humani generis*), seperti kejahatan perang, genosida, perompakan laut.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Kekebalan Negara (*State Immunity*)</p>
+                <p class="mb-3">Kekebalan negara adalah prinsip HI yang menyatakan bahwa pengadilan suatu negara tidak dapat menyidangkan negara asing atau propertinya. Ini didasarkan pada prinsip kesetaraan kedaulatan.</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Kekebalan Absolut (*Absolute Immunity*):</strong> Kekebalan total atas semua tindakan negara (pandangan tradisional).</li>
+                    <li><strong>Kekebalan Terbatas (*Restrictive Immunity*):</strong> Kekebalan hanya berlaku untuk tindakan kedaulatan negara (*acta jure imperii*), tetapi **tidak** berlaku untuk tindakan komersial atau bisnis (*acta jure gestionis*). Ini adalah pandangan yang dominan saat ini, bertujuan melindungi individu atau perusahaan yang berurusan dengan negara asing dalam konteks komersial.</li>
+                    <li><strong>Kekebalan Diplomatik/Konsuler:</strong> Kekebalan yang diberikan kepada perwakilan negara di negara lain, diatur oleh Konvensi Wina 1961 (Hubungan Diplomatik) dan 1963 (Hubungan Konsuler).</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 8: Tanggung Jawab Negara dalam Hukum Internasional -->
+        <details class="content-box" id="tanggung-jawab">
+            <summary>8. Tanggung Jawab Negara dalam Hukum Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3"><strong>Asas Dasar:</strong> Setiap tindakan yang salah secara internasional (*internationally wrongful act*) yang dilakukan oleh suatu negara menimbulkan tanggung jawab internasional bagi negara tersebut.</p>
+                <p class="font-bold text-lg mt-4">Elemen Tanggung Jawab Negara (Draft Articles on State Responsibility - ILC):</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Unsur Objektif (Pelanggaran):</strong> Adanya pelanggaran terhadap kewajiban HI yang mengikat negara tersebut.</li>
+                    <li><strong>Unsur Subjektif (Atribusi):</strong> Tindakan tersebut dapat diatribusikan (dianggap dilakukan) oleh negara. Atribusi mencakup tindakan:
+                        <ol class="list-decimal ml-6">
+                            <li>Organ negara (eksekutif, legislatif, yudikatif).</li>
+                            <li>Orang atau entitas yang bertindak atas perintah atau kendali negara.</li>
+                            <li>Gerakan pemberontak yang kemudian menjadi pemerintahan baru.</li>
+                        </ol>
+                    </li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Konsekuensi dari Tanggung Jawab:</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Penghentian Tindakan yang Salah:</strong> Negara harus segera menghentikan pelanggaran yang sedang berlangsung.</li>
+                    <li><strong>Jaminan Tidak Terulang:</strong> Negara harus memberikan jaminan bahwa tindakan serupa tidak akan terulang.</li>
+                    <li><strong>Reparasi (*Reparation*):</strong> Negara harus memperbaiki kerugian yang ditimbulkan, yang dapat berbentuk:
+                        <ol class="list-decimal ml-6">
+                            <li>**Restitusi:** Mengembalikan keadaan ke kondisi sebelum terjadi pelanggaran.</li>
+                            <li>**Kompensasi:** Pembayaran ganti rugi finansial jika restitusi tidak mungkin.</li>
+                            <li>**Kepuasan (*Satisfaction*):** Pengakuan atas pelanggaran, permintaan maaf, atau hukuman kepada pelaku, jika kerugian bersifat moral.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 9: Penyelesaian Sengketa Internasional (Damai dan Non-Damai) -->
+        <details class="content-box" id="sengketa">
+            <summary>9. Penyelesaian Sengketa Internasional (Damai dan Non-Damai)</summary>
+            <p class="mb-3">Pasal 33 Piagam PBB mewajibkan para pihak dalam suatu sengketa yang membahayakan perdamaian internasional untuk mencarinya penyelesaian secara **damai**.</p>
+            <div class="detail-content">
+                <p class="font-bold text-lg mt-4">Cara-Cara Penyelesaian Sengketa Secara Damai:</p>
+                <ul class="list-disc ml-6">
+                    <li>**Negosiasi:** Langsung antar pihak yang bersengketa tanpa bantuan pihak ketiga.</li>
+                    <li>**Jasa-Jasa Baik (*Good Offices*):** Pihak ketiga (negara/individu) menawarkan diri sebagai sarana komunikasi, tetapi tidak ikut campur dalam substansi sengketa.</li>
+                    <li>**Mediasi:** Pihak ketiga secara aktif ikut serta dalam perundingan, mengajukan saran, dan menawarkan solusi (lebih aktif dari jasa-jasa baik).</li>
+                    <li>**Penyelidikan (*Inquiry*):** Pembentukan komisi netral untuk mencari fakta dan menentukan akar masalah sengketa (tidak memberikan solusi hukum).</li>
+                    <li>**Konsiliasi:** Pembentukan komisi formal yang menyelidiki fakta dan mengajukan proposal penyelesaian yang komprehensif (bersifat rekomendatif).</li>
+                    <li>**Arbitrase:** Penyelesaian sengketa oleh arbitrator/majelis arbitrase yang dipilih oleh para pihak, dan keputusannya bersifat **mengikat**.</li>
+                    <li>**Penyelesaian Yudisial:** Penyelesaian melalui badan peradilan permanen seperti Mahkamah Internasional (ICJ) atau pengadilan regional, dan keputusannya bersifat **mengikat**.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Cara Non-Damai (Tindakan Pemaksaan - *Coercive Measures*):</p>
+                <ul class="list-disc ml-6">
+                    <li>**Retorsi:** Tindakan tidak bersahabat tetapi sah menurut HI (misalnya memutus bantuan ekonomi, memanggil pulang duta besar).</li>
+                    <li>**Reprisal (Pembalasan):** Tindakan yang pada dasarnya melanggar HI, tetapi dibenarkan karena dilakukan sebagai balasan terhadap pelanggaran HI yang dilakukan oleh negara lain. Harus proporsional.</li>
+                    <li>**Blokade Damai:** Penggunaan kekuatan untuk memutus komunikasi atau transportasi ke pelabuhan atau pantai negara lain, dilarang oleh Piagam PBB.</li>
+                    <li>**Penggunaan Kekuatan Bersenjata (Perang):** Pada dasarnya dilarang oleh Pasal 2(4) Piagam PBB, kecuali:
+                        <ol class="list-decimal ml-6">
+                            <li>**Hak Bela Diri (*Self-Defense*):** Pasal 51 Piagam PBB, harus proporsional dan dilaporkan kepada DK PBB.</li>
+                            <li>**Tindakan Kolektif DK PBB:** Diizinkan oleh Dewan Keamanan PBB berdasarkan Bab VII Piagam PBB.</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 10: Hukum Laut Internasional -->
+        <details class="content-box" id="hukum-laut">
+            <summary>10. Hukum Laut Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3">Diatur oleh Konvensi PBB tentang Hukum Laut 1982 (*United Nations Convention on the Law of the Sea - UNCLOS 1982*), yang dijuluki sebagai "Konstitusi Lautan". UNCLOS membagi lautan menjadi beberapa zona:</p>
+                <ul class="list-disc ml-6">
+                    <li>**Perairan Internal (*Internal Waters*):** Wilayah perairan di sisi darat dari garis pangkal (*baseline*). Sama dengan wilayah darat, kedaulatan negara bersifat absolut.</li>
+                    <li>**Laut Teritorial (*Territorial Sea*):** Lebar maksimum **12 mil laut** dari garis pangkal. Kedaulatan negara penuh, namun tunduk pada hak **lintas damai (*innocent passage*)** bagi kapal asing.</li>
+                    <li>**Zona Tambahan (*Contiguous Zone*):** Lebar maksimum **24 mil laut** dari garis pangkal (tambahan 12 mil di luar Laut Teritorial). Negara memiliki hak untuk mengontrol dan menghukum pelanggaran bea cukai, fiskal, imigrasi, atau sanitasi yang terjadi di wilayahnya.</li>
+                    <li>**Zona Ekonomi Eksklusif (ZEE):** Lebar maksimum **200 mil laut** dari garis pangkal. Negara Pantai memiliki hak berdaulat untuk tujuan eksplorasi, eksploitasi, konservasi, dan pengelolaan sumber daya alam. Negara lain memiliki kebebasan navigasi dan penerbangan.</li>
+                    <li>**Landas Kontinen (*Continental Shelf*):** Dasar laut dan tanah di bawahnya yang merupakan kelanjutan alami wilayah daratnya, hingga 200 mil atau hingga batas terluar tepian benua. Hak berdaulat negara pantai atas sumber daya mineralnya.</li>
+                    <li>**Laut Lepas (*High Seas*):** Semua bagian laut yang tidak termasuk dalam zona di atas. Prinsip **kebebasan laut (*freedom of the seas*)** berlaku (navigasi, penerbangan, penangkapan ikan, dll.).</li>
+                    <li>**Area (*The Area*):** Dasar laut dan tanah di bawahnya di luar yurisdiksi nasional. Sumber dayanya adalah warisan bersama umat manusia (*Common Heritage of Mankind*), dikelola oleh Otoritas Dasar Laut Internasional (ISA).</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 11: Hukum Humaniter Internasional (HHI) (Hukum Perang) -->
+        <details class="content-box" id="hhi">
+            <summary>11. Hukum Humaniter Internasional (HHI) (Hukum Perang)</summary>
+            <div class="detail-content">
+                <p class="mb-3">HHI (atau *Jus in Bello*) adalah sekumpulan kaidah yang bertujuan membatasi penggunaan kekerasan dalam konflik bersenjata, melindungi orang yang tidak atau sudah tidak ikut serta dalam pertempuran, serta membatasi sarana dan metode peperangan.</p>
+                <p class="font-bold text-lg mt-4">Dasar Hukum Utama:</p>
+                <ul class="list-disc ml-6">
+                    <li>Konvensi Den Haag (membatasi sarana dan metode perang).</li>
+                    <li>Empat Konvensi Jenewa 1949 (melindungi korban perang) dan Protokol Tambahan (1977 dan 2005).</li>
+                    <li><strong>Klausul Martens (*Martens Clause*):</strong> Bahkan dalam kasus yang tidak diatur oleh perjanjian, warga sipil dan kombatan tetap berada di bawah perlindungan prinsip-prinsip hukum bangsa-bangsa, yang berasal dari kebiasaan, prinsip kemanusiaan, dan tuntutan hati nurani publik.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Prinsip Dasar HHI:</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Prinsip Pembedaan (*Principle of Distinction*):</strong> Keharusan untuk selalu membedakan antara kombatan dan warga sipil, serta antara sasaran militer dan objek sipil. Serangan hanya boleh ditujukan pada sasaran militer.</li>
+                    <li><strong>Prinsip Proporsionalitas:</strong> Kerugian sampingan terhadap warga sipil atau objek sipil yang diantisipasi tidak boleh berlebihan dibandingkan keuntungan militer yang konkret dan langsung yang diharapkan.</li>
+                    <li><strong>Prinsip Keharusan Militer (*Military Necessity*):</strong> Hanya tindakan yang mutlak diperlukan untuk mencapai tujuan militer yang sah yang diizinkan.</li>
+                    <li><strong>Prinsip Penderitaan Tidak Perlu (*Unnecessary Suffering*):</strong> Dilarang menggunakan senjata atau metode yang menyebabkan penderitaan atau cedera yang tidak perlu bagi kombatan.</li>
+                </ul>
+                <p class="mt-4"><strong>Pelanggaran Serius:</strong> Pelanggaran HHI, terutama yang serius (misalnya pembunuhan yang disengaja, penyiksaan), merupakan **Kejahatan Perang** yang dapat diadili di ICC. </p>
+            </div>
+        </details>
+
+        <!-- MATERI 12: Hukum Hak Asasi Manusia Internasional -->
+        <details class="content-box" id="ham">
+            <summary>12. Hukum Hak Asasi Manusia Internasional</summary>
+            <div class="detail-content">
+                <p class="mb-3">HI HAM adalah seperangkat aturan dan prosedur yang dikembangkan secara internasional untuk mendorong dan melindungi hak asasi manusia di tingkat global, terlepas dari kebangsaan atau lokasi.</p>
+                <p class="font-bold text-lg mt-4">Piagam Internasional HAM (*International Bill of Human Rights*):</p>
+                <ul class="list-disc ml-6">
+                    <li>**Deklarasi Universal HAM (UDHR 1948):** Pernyataan aspirasi dan prinsip moral yang universal (tidak mengikat secara hukum, namun kini banyak prinsipnya menjadi Kebiasaan HI).</li>
+                    <li>**Kovenan Internasional tentang Hak-Hak Sipil dan Politik (ICCPR 1966):** Melindungi hak sipil (kehidupan, kebebasan, keadilan, non-diskriminasi).</li>
+                    <li>**Kovenan Internasional tentang Hak-Hak Ekonomi, Sosial, dan Budaya (ICESCR 1966):** Melindungi hak untuk bekerja, kesehatan, pendidikan, dan standar hidup yang layak.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Mekanisme Pengawasan:</p>
+                <ul class="list-disc ml-6">
+                    <li>**Dewan HAM PBB (*UN Human Rights Council*):** Badan antarpemerintah yang bertanggung jawab mempromosikan dan melindungi HAM.</li>
+                    <li>**Mekanisme Pelaporan (Treaty Bodies):** Komite yang dibentuk di bawah masing-masing perjanjian (misalnya Komite HAM di bawah ICCPR) untuk memantau implementasi oleh negara anggota.</li>
+                    <li>**Prosedur Pengaduan Individu:** Beberapa instrumen HAM, baik regional maupun universal, memungkinkan individu mengajukan pengaduan terhadap negara yang melanggar hak mereka.</li>
+                </ul>
+            </div>
+        </details>
+
+        <!-- MATERI 13: Hubungan Hukum Internasional dan Hukum Nasional -->
+        <details class="content-box" id="hubungan">
+            <summary>13. Hubungan Hukum Internasional dan Hukum Nasional</summary>
+            <div class="detail-content">
+                <p class="mb-3">Terdapat dua pandangan utama mengenai hubungan antara HI dan hukum nasional (HN) dan bagaimana kaidah HI menjadi bagian dari HN:</p>
+                <p class="font-bold text-lg mt-4">1. Monisme (*Monism*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Menganggap HI dan HN adalah bagian dari satu sistem hukum yang sama.</li>
+                    <li>HI secara otomatis mengikat dan berlaku dalam sistem hukum nasional tanpa perlu tindakan legislatif khusus.</li>
+                    <li>Jika terjadi konflik, ada varian: Monisme dengan Primat HI (HI lebih tinggi) atau Monisme dengan Primat HN (HN lebih tinggi).</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">2. Dualisme (*Dualism*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Menganggap HI dan HN adalah dua sistem hukum yang terpisah dan independen.</li>
+                    <li>HI hanya berlaku dalam yurisdiksi nasional jika sudah diubah (*transformation*) menjadi hukum nasional melalui undang-undang atau tindakan legislatif.</li>
+                    <li>Indonesia menganut Dualisme untuk perjanjian (ratifikasi butuh UU) dan modifikasi Monisme untuk Kebiasaan HI (dianggap mengikat selama tidak bertentangan dengan UU).</li>
+                </ul>
+                <p class="mt-4"><strong>Penting:</strong> Di hadapan pengadilan internasional (ICJ), negara tidak dapat menggunakan hukum nasionalnya sebagai alasan untuk membenarkan pelanggaran HI.</p>
+            </div>
+        </details>
+
+        <h2 class="text-3xl font-bold mb-6 text-gray-800 border-b-2 pb-2 mt-10">Materi Tambahan (Pendalaman Sumber Hukum)</h2>
+
+        <!-- MATERI 14: Klasifikasi Sumber Hukum Internasional (Formil & Materil) -->
+        <details class="content-box" id="klasifikasi-sumber">
+            <summary>14. Klasifikasi Sumber Hukum Internasional (Formil & Materil)</summary>
+            <div class="detail-content">
+                <ul class="list-disc ml-6">
+                    <li><strong>Sumber Hukum Materil (*Material Sources*):</strong> Sumber yang menjelaskan mengapa suatu kaidah HI itu mengikat. Ini adalah faktor-faktor yang mendorong pembentukan HI, seperti keadilan, kesadaran hukum, moral, politik, dan hubungan timbal balik (*reciprocity*) antar negara.</li>
+                    <li><strong>Sumber Hukum Formil (*Formal Sources*):</strong> Sumber yang menjelaskan di mana kaidah-kaidah HI dapat ditemukan. Ini adalah metode-metode penciptaan hukum yang memberikan legalitas pada suatu kaidah. Contohnya adalah daftar dalam Pasal 38 Statuta ICJ (Traktat, Kebiasaan, Asas Hukum Umum).</li>
+                </ul>
+                <p class="mt-4">Dalam studi HI, fokus utama adalah pada **Sumber Hukum Formil**.</p>
+            </div>
+        </details>
+
+        <!-- MATERI 15: Perjanjian Internasional Jenisnya -->
+        <details class="content-box" id="perjanjian-jenis">
+            <summary>15. Perjanjian Internasional (Jenis dan Proses)</summary>
+            <div class="detail-content">
+                <p class="font-bold text-lg mt-4">Jenis Perjanjian Internasional Berdasarkan Fungsi:</p>
+                <ul class="list-disc ml-6">
+                    <li><strong><em>Law-Making Treaties</em> (Traktat Pembentuk Hukum):</strong> Perjanjian multilateral yang bertujuan merumuskan kaidah hukum yang berlaku umum bagi banyak negara (misalnya Konvensi Wina 1969, UNCLOS).</li>
+                    <li><strong><em>Treaty Contracts</em> (Traktat Kontrak):</strong> Perjanjian yang hanya mengatur kepentingan dua negara atau sekelompok kecil negara (misalnya perjanjian perbatasan, perjanjian dagang bilateral).</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Proses Pembuatan Perjanjian (Konvensi Wina 1969):</p>
+                <ol class="list-decimal ml-6">
+                    <li><strong>Perundingan (*Negotiation*):</strong> Pembahasan teks perjanjian.</li>
+                    <li><strong>Penerimaan Teks (*Adoption*):</strong> Persetujuan atas teks akhir (biasanya 2/3 suara dalam konferensi).</li>
+                    <li><strong>Pengesahan (*Authentication*):</strong> Penandatanganan teks oleh wakil negara sebagai bukti kesepakatan atas teks.</li>
+                    <li><strong>Persetujuan Mengikat (*Consent to be Bound*):</strong> Negara menyatakan diri terikat, bisa melalui:
+                        <ul class="list-circle ml-6">
+                            <li><strong>Penandatanganan (*Signature*):</strong> Jika perjanjian menentukan demikian.</li>
+                            <li><strong>Ratifikasi:</strong> Persetujuan formal oleh badan legislatif atau eksekutif nasional.</li>
+                            <li><strong>Aksesi (*Accession*):</strong> Negara yang tidak ikut berunding bergabung belakangan.</li>
+                    </li>
+                    <li><strong>Berlaku (*Entry into Force*):</strong> Perjanjian mulai berlaku, biasanya setelah jumlah minimum ratifikasi tercapai.</li>
+                </ol>
+                <p class="font-bold text-lg mt-4">Reservasi (*Reservations*):</p>
+                <p>Pernyataan sepihak oleh suatu negara yang mengecualikan atau mengubah efek hukum dari ketentuan tertentu dalam perjanjian yang berlaku bagi negara tersebut. Tidak semua perjanjian mengizinkan reservasi.</p>
+            </div>
+        </details>
+
+        <!-- MATERI 16: Kebiasaan Internasional (Detil) -->
+        <details class="content-box" id="kebiasaan-detil">
+            <summary>16. Kebiasaan Internasional (Detil Unsur)</summary>
+            <div class="detail-content">
+                <p class="mb-3">Kebiasaan HI (Pasal 38 (1) (b)) harus memenuhi dua unsur utama secara simultan. Ini adalah sumber hukum yang sangat penting dan bersifat universal.</p>
+                <p class="font-bold text-lg mt-4">Unsur 1: Praktik Negara (*State Practice* - Unsur Material)</p>
+                <ul class="list-disc ml-6">
+                    <li><strong>Konsistensi:</strong> Praktik negara harus relatif seragam dan tidak banyak inkonsistensi.</li>
+                    <li><strong>Durasi:</strong> Tidak harus berlangsung lama, tetapi harus memadai. Dalam kasus ZEE, praktik negara yang cepat dan luas membentuk kebiasaan baru dalam waktu singkat.</li>
+                    <li><strong>Generalitas:</strong> Harus umum, mencakup sebagian besar negara yang berkepentingan (*specially affected States*). Praktik tidak perlu universal, tetapi harus mencakup negara-negara utama.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">Unsur 2: Keyakinan Hukum (*Opinio Juris Sive Necessitatis* - Unsur Psikologis)</p>
+                <ul class="list-disc ml-6">
+                    <li>Keyakinan bahwa praktik tersebut dilakukan karena adanya **kewajiban hukum**, bukan hanya karena sopan santun, kebiasaan, atau kepentingan politik.</li>
+                    <li>Unsur ini membedakan Kebiasaan HI dari sekadar kebiasaan internasional (*international comity*).</li>
+                    <li>ICJ menekankan bahwa negara harus merasa bahwa mereka mematuhi apa yang merupakan kewajiban hukum (*North Sea Continental Shelf Cases*).</li>
+                </ul>
+                <p class="mt-4"><strong><em>Persistent Objector Rule</em>:</strong> Suatu negara dapat mengecualikan dirinya dari Kebiasaan HI yang sedang berkembang jika negara tersebut secara konsisten dan jelas menolak kaidah tersebut sejak awal pembentukannya. Namun, kaidah *Jus Cogens* (hukum memaksa) tidak dapat ditolak.</p>
+            </div>
+        </details>
+
+        <!-- MATERI 17: Prinsip Hukum Umum, Putusan Pengadilan, dan Organisasi Inter -->
+        <details class="content-box" id="prinsip-umum">
+            <summary>17. Prinsip Hukum Umum, Putusan Pengadilan, dan Organisasi Internasional</summary>
+            <div class="detail-content">
+                <p class="font-bold text-lg mt-4">A. Prinsip Hukum Umum (*General Principles of Law*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Digunakan untuk mengisi kekosongan hukum (*lacunae*) dalam HI ketika Traktat dan Kebiasaan HI tidak memberikan jawaban yang jelas.</li>
+                    <li>Contoh aplikasinya:
+                        <ul class="list-circle ml-6">
+                            <li>Asas ganti rugi harus mencakup kerugian yang diderita (*Chorzów Factory Case*).</li>
+                            <li>Asas *estoppel* (pernyataan yang mengikat).</li>
+                            <li>Asas keharusan membayar bunga atas utang.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="font-bold text-lg mt-4">B. Putusan Pengadilan (*Judicial Decisions*)</p>
+                <ul class="list-disc ml-6">
+                    <li>Bukan sumber hukum primer, tetapi sarana untuk menetapkan kaidah hukum (*subsidiary means*).</li>
+                    <li>Menurut Pasal 59 Statuta ICJ, putusan ICJ tidak mengikat kecuali bagi pihak-pihak yang bersengketa dan hanya untuk kasus tersebut (*stare decisis* tidak berlaku secara formal).</li>
+                    <li>Namun, secara praktik, ICJ sering merujuk pada putusan sebelumnya untuk mempertahankan konsistensi, sehingga putusan mereka memiliki otoritas besar.</li>
+                </ul>
+                <p class="font-bold text-lg mt-4">C. Putusan Organisasi Internasional</p>
+                <ul class="list-disc ml-6">
+                    <li>Secara umum, resolusi Organisasi Internasional (terutama Majelis Umum PBB) bersifat **rekomendatif** dan tidak mengikat.</li>
+                    <li>**Pengecualian:**
+                        <ul class="list-circle ml-6">
+                            <li>Keputusan Dewan Keamanan PBB berdasarkan Bab VII Piagam PBB (mengenai ancaman perdamaian, pelanggaran perdamaian, atau tindakan agresi) bersifat **mengikat** (Pasal 25 Piagam PBB).</li>
+                            <li>Peraturan internal Organisasi Internasional (misalnya WHO, ICAO) yang mengikat negara anggota.</li>
+                        </ul>
+                    </li>
+                    <li>Resolusi MU PBB dapat menjadi bukti adanya *opinio juris* dan mempercepat pembentukan Kebiasaan HI.</li>
+                </ul>
+            </div>
+        </details>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white p-6 mt-10">
+        <div class="max-w-7xl mx-auto text-center text-sm opacity-80">
+            Materi ini disusun untuk keperluan studi dan pendidikan Hukum Internasional.
+        </div>
+    </footer>
+
+</body>
+</html>
+
